@@ -5,10 +5,13 @@ description = "Python package to check if a given password is safe to use."
 authors = ["Arun Nalla <hello@arunnalla.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.6.2"
+requests = "^2.27.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+pre-commit = "^2.17.0"
+pylint = "^2.13.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
