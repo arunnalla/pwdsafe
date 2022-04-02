@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "pwdsafe"
-version = "0.1.0"
+version = "1.0.0"
 description = "Python package to check if a given password is safe to use."
 authors = ["Arun Nalla <hello@arunnalla.com>"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/arunnalla/pwdsafe/"
+repository = "https://github.com/arunnalla/pwdsafe/"
+keywords = ["password checker", "pawned", "safe password", "password"]
 
 [tool.poetry.dependencies]
 python = "^3.6.2"
